@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'newsreader';
+  text-decoration: none;
+}
+
+.content {
+  font-family: 'Newsreader';
+}
+.boks {
+width: 100%;
+text-align: left;
+color: #E7E3DB;
+font-size: 3vw;
+background-color: #162319;
+}
+.tekst {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  width: 50%;
+  opacity: 90%;
+  font-weight: lighter;
+}
+.tekst button {
+  font-size: 1vw;
+}
+.content img {
+  width: 100%;
+}
+.højre {
+  padding-top: 10%;
+}
+.treepc {
+  position: absolute;
+  bottom: 3%;
+  right: 25%;
+  width: 35%;
+  transform: scale(2.3);
+}
+
+#section1 {
+  background-color: #162319;
+  font-family: 'Newsreader';
+  color: white;
+  padding-bottom: 8%;
+  padding-top: 4%;
+  font-size: larger;
+}
+#section1 img {
+  padding-top: 5%;
+}
+#section2 {
+  background-color: #18271A;
+  font-family: 'Newsreader';
+  color: white;
+  padding-bottom: 5%;
+  font-weight: lighter;
+  font-size: larger;
+}
+.section3 {
+  background-color: #162319;
+  font-family: 'Newsreader';
+  color: white;
+  padding-bottom: 1%;
+  font-weight: lighter;
+  font-size: larger;
+  margin-bottom: -2%;
+}
+#section4 {
+  background-color: #18271A;
+  font-family: 'Newsreader';
+  color: white;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+#section5 {
+  background-color: #162319;
+  font-family: 'Newsreader';
+  color: white;
+  padding-bottom: 5%;
+  font-weight: lighter;
+  font-size: larger;
+  margin-bottom: -4%;
+}
+#section1 h1 {
+  color: #A8F3B0;
+  line-height: 45px;
+  font-weight: lighter;
+  font-size: 2vw;
+  line-height: 110%;
+  margin-top: -10%;
+}
+#section2 h1 {
+  color: #A8F3B0;
+  padding-bottom: 3%;
+  font-weight: lighter;
+  font-size: 2vw;
+  line-height: 110%;
+}
+.section3 h1 {
+  color: #A8F3B0;
+  padding-bottom: 3%;
+  font-weight: lighter;
+  font-size: 2vw;
+  line-height: 110%;
+  
+}
+.section3 .højre {
+  margin-top: -10%;
+}
+#section4 h1 {
+  color: #A8F3B0;
+  padding-bottom: 3%;
+  font-weight: lighter;
+  font-size: 2vw;
+  line-height: 110%;
+  
+}
+#section5 h1 {
+  color: #A8F3B0;
+  padding-bottom: 3%;
+  font-weight: lighter;
+  font-size: 2vw;
+  line-height: 110%;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.højre {
+  padding-left: 10%;
+}
+.venstre {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 5%;
+  font-weight: 200;
+  line-height: 182%;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+.venstre img {
+  padding-bottom: 5%;
+
+}
+.pakker {
+display: flex;
+flex-direction: row;
+width: 100%;
+background-color: #18271A;
+font-weight: lighter;
+padding-bottom: 10%;
+justify-content: center;
+}
+.pakke p {
+  color: #A8F3B0;
+  margin-top: 3%;
+}
+.pakker h3, p {
+  font-weight: lighter;
+  color: white;
+  padding-top: 10%;
+}
+.pakker h1, h2 {
+  padding-top: 10%;
+  color: white;
+  font-size: 2vw;
+}
+.pakker h2 {
+  margin-top: -15%;
+}
+.pakker button {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #479B71;
+  padding: 4%;
+  border: 2px solid #A8F3B0;
+  margin-top: 20%;
+  margin-bottom: -10%;
+  font-size: 1vw;
+}
+.pakker p {
+  padding-top: 0.5%;
+  font-size: smaller;
+}
+.pakke {
+  width: 19%;
+  border: 2px solid #A8F3B0;
+  background-color: #182E1C;
+  border-radius: 15px;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin-left: 4%;
+ margin-top: 4%;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #162319;
+  font-weight: lighter;
+  font-size: 1vw;
+  padding-bottom: 8%;
+  align-items: center;
+
+  
+  }
+  .partner {
+    width: 70%;
+    border: 2px solid #A8F3B0;
+    background-color: #1A2D1D;
+    border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    max-height: 470px;
+    margin-top: 2%;
+  }
+  .partner button {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #479B71;
+    padding: 2%;
+    border: 2px solid #A8F3B0;
+    margin-bottom: 13%;
+    font-size: 1vw;
+  }
+  .partner .venstre {
+    padding-left: 5%;
+    width: 55%;
+  }
+  .partner h4 {
+    color: #A8F3B0;
+    font-weight: lighter;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+#kontakt {
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  flex-direction: column;
+  padding-bottom: 10%;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2%;
+  flex-direction: row;
+}
+#kontakt input {
+  background-color: #182E1C;
+  border: 1px solid #E7E3DB;
+  border-radius: 5px;
+  color: #E7E3DB;
+}
+#kontakt #name, #email {
+  width: 10%;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5px;
+  font-size: 1vw;
+}
+#kontakt #describe {
+  width: 25%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-left: 1%;
+  margin-top: 1%;
+  font-size: 1vw;
+  
+}
+#solution, #nonprofit {
+  width: 26%;
+  margin-top: 2%;
+  text-align: center;
+  background-color: #182E1C;
+  color: #E7E3DB;
+  padding-bottom: 1%;
+  font-family: 'Newsreader';
+  padding-top: 1%;
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid #E7E3DB;
+}
+#kontakt button {
+  width: 10%;
+  padding: 1%;
+  margin-top: 2%;
+  background-color: #479B71;
+  border-radius: 5px;
+  font-size: 1vw;
+}
+#kontakt h2 {
+  color: white;
+  font-weight: lighter;
+  padding-top: 2%;
+  text-align: center;
+}
+#kontakt h1 {
+  font-size: 4vw;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+
+button {
+  width: 30%;
+  border-radius: 5px;
+  background-color: #479B71;
+  padding: 2%;
+  border: 2px solid #A8F3B0;
+  margin-top: 5%;
+  color: white;
+}
+
+
+.partner h1 {
+  padding: 0;
+  font-size: 2.4vw;
+}
+.partner p {
+    padding: 0;
+    font-size: 1vw;
+  }
+
+
+.tekst a {
+  width: 30%;
+  border-radius: 5px;
+  background-color: #479B71;
+  padding: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
+  border: 2px solid #A8F3B0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Newsreader';
+  font-size: 1.5vw;
+}
+.tekst a:hover {
+    color: white;
+    cursor: default;
+}
